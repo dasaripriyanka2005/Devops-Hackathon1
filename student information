@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>Name</th>
+                <th>Grade</th>
+                <th>Major</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>S001</td>
+                <td>Alice Smith</td>
+                <td>10</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>S002</td>
+                <td>Bob Johnson</td>
+                <td>11</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <td>S003</td>
+                <td>Charlie Brown</td>
+                <td>9</td>
+                <td>Mathematics</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+</html>
