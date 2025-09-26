@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Student Information</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraBlend | Mood Color Palette Generator</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
 <body>
+    <img src=image.png>
+    <header>
+        <h1>AuraBlend</h1>
+        <p>Translate your mood into a harmonious color palette.</p>
+    </header>
 
-    <h1>Student Details</h1>
+    <main>
+        <section class="input-container">
+            <textarea id="moodInput" placeholder="Describe your mood, e.g., 'A tranquil forest at dusk'"></textarea>
+            <button id="generateButton">Generate Aura</button>
+        </section>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Student ID</th>
-                <th>Name</th>
-                <th>Grade</th>
-                <th>Major</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>S001</td>
-                <td>Alice Smith</td>
-                <td>10</td>
-                <td>Science</td>
-            </tr>
-            <tr>
-                <td>S002</td>
-                <td>Bob Johnson</td>
-                <td>11</td>
-                <td>Arts</td>
-            </tr>
-            <tr>
-                <td>S003</td>
-                <td>Charlie Brown</td>
-                <td>9</td>
-                <td>Mathematics</td>
-            </tr>
-        </tbody>
-    </table>
+        <section id="paletteOutput" class="palette-container">
+            <p class="placeholder-text">Type your mood and click 'Generate Aura' to begin.</p>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2025 AuraBlend Project</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-</html>
 </html>
